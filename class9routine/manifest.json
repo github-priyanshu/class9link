@@ -1,0 +1,36 @@
+{
+   "short_name": "Time Table",
+   "name": "Class 9 zoom links v2.0",
+   "description": "Priyanshu app",
+   "icons": [
+     {
+       "src": "192.png",
+       "type": "image/png",
+       "sizes": "192x192"
+     },
+     {
+       "src": "512.png",
+       "type": "image/png",
+       "sizes": "512x512"
+     }
+   ],
+   "start_url": "index.html",
+   "background_color": "#fff",
+   "display": "standalone",
+    
+   "theme_color": "#fff",
+   "shortcuts": [
+     {
+       "name": "See Website",
+       "short_name": "Website",
+       "description": "View my website.",
+       "url": "https://xncz6jvtel8xrnny9ta6nw-on.drv.tw/allPages/"
+     },
+     {
+       "name": "See Youtube",
+       "short_name": "See Youtube",
+       "description": "View my channel on Youtube.",
+       "url": "https://www.youtube.com/channel/UCtZPaedDIo85UjVS1Twdmbw"
+     }
+   ]
+ }

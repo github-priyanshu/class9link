@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Class 9 routine</title>
+   <link rel="manifest" href="manifest.json">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="main flex">
+      <div class="bg"></div>
+      <div class="head flex">
+         <label class="day" for="#chhoseDay">
+            <select id="chooseDay" onchange="makeRoutine()"></select>
+         </label>
+         <div class="right">
+            <div class="img" id="myPic">
+               <img src="pk.png">
+            </div>
+            <div class="menu">
+               <div class="menuFls">
+                  <a href="mailto:priyanshu90069@gmail.com" target="_blank">
+                     <span>Contact Me</span>
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCtZPaedDIo85UjVS1Twdmbw" target="_blank">
+                     <span>My Youtube</span>
+                  </a>
+                  <a href="https://xncz6jvtel8xrnny9ta6nw-on.drv.tw/allPages/" target="_blank">
+                     <span>My website</span>
+                  </a>
+                  <a href="https://xncz6jvtel8xrnny9ta6nw-on.drv.tw/allPages/" target="_blank">
+                     <span>Powered by:<br><span>Priyasnhu Kumar</span></span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content flex">
+         <p id="dataHead"></p>
+         <div class="adBox">
+            <a href="" target="_blank">
+               <span class="flex loading"><span>Ad.</span></span>
+               <img src="" onload="adLoaded()" alt="">
+            </a>
+         </div>
+         <div class="data flex">
+
+         </div>
+         <p class='button' style="display: none;" id='share'>Share</p>
+      </div>
+   </div>
+   <div class="footer flex">
+      <div class="left">Powerd by: <a href="https://xncz6jvtel8xrnny9ta6nw-on.drv.tw/allPages/"
+            target="_blank">Priyanshu</a></div>
+      <div class="right">
+         <a href="https://www.youtube.com/channel/UCtZPaedDIo85UjVS1Twdmbw" target="_blank" class="you">
+            <img src="ytLogo.png" id="ytLogo">
+         </a>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
