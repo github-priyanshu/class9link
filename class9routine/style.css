@@ -173,7 +173,7 @@
       width: 197px;
       text-transform: capitalize;
       background: linear-gradient(90deg, #fff, #fefefe);
-      border-radius: 10px;
+      border-radius: 2px;
       box-shadow: 0 1px 2px #0000003d;
       transition: all .25s;
       animation: come .5s cubic-bezier(0.21, 0.79, 0.73, 1.26) forwards;
@@ -234,7 +234,7 @@
 
    .sub button {
       color: #fff;
-      border-radius: 99px;
+      border-radius: 2px;
       padding: 6px 12px;
       background: linear-gradient(90deg, #ff0095, #f700ff);
       border: none;
